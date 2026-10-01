@@ -12,7 +12,7 @@ Al terminar, cada participante podrá encargar a una IA una transformación M y 
 |---|---|---|
 | 00–08 | Método y medición | Contexto, contrato de salida, límites, línea base y prompt reutilizable |
 | 08–24 | Power Query y M | Demo de 6 min, ejercicio de 6 min, revisión de 4 min. Limpieza con cuarentena y reconciliación |
-| 24–43 | DAX con IA | Comprobación del modelo real de 3 min, demo de 5 min, ejercicio de 7 min, validación de 4 min. Ventas, YTD y variación interanual |
+| 24–43 | DAX con IA | Secuencia Power Query → Cerrar y aplicar → tablas cargadas → relaciones en vista Modelo → medidas. Comprobación del modelo real de 3 min, demo de 5 min, ejercicio de 7 min y validación de 4 min |
 | 43–55 | Debugging y rendimiento | Diagnóstico de 3 min, práctica de 6 min, revisión de 3 min. Margen ponderado y filtros |
 | 55–65 | Modelado | Revisión de 3 min, reto de 4 min, discusión de 3 min. Grano, cardinalidad y propagación |
 | 65–74 | Análisis | Demo de 3 min, hipótesis de 3 min, contraste de 3 min. Hallazgos frente a causas |
@@ -26,6 +26,8 @@ Al terminar, cada participante podrá encargar a una IA una transformación M y 
 Distribuidora ficticia NorteSur. Datos completamente sintéticos. Ventas de enero a marzo de 2024 y 2025. Corte de comparación: 31/03/2025. Moneda EUR. Grano: una línea de venta identificada por IdLinea. Dos productos P01/P02 y dos regiones R01/R02. 24 líneas válidas, más un duplicado exacto, una fecha inválida, una cantidad nula y una clave de producto huérfana, total 28 filas de entrada. No se imputan errores en silencio. Resultado: 24 filas aceptadas, 3 rechazadas y 1 duplicado eliminado.
 
 Tablas finales: Ventas, Productos, Regiones y Calendario (todos los días de 2024 y 2025). Relaciones uno a varios de dimensiones a hechos, filtro único y FechaVenta activa. Campos de Ventas: IdLinea, FechaVenta, IdProducto, IdRegion, Cantidad, PrecioUnitario, CosteUnitario, Descuento. Descuento es fracción entre 0 y 1. Ventas netas = cantidad × precio × (1 − descuento). Coste = cantidad × coste unitario. Margen % = (ventas netas − coste) / ventas netas. La tabla Calendario se marca como tabla de fechas.
+
+Power Query conecta, limpia, transforma y prepara las tablas para la carga; puede combinar consultas, pero eso no crea relaciones del modelo. Tras **Cerrar y aplicar**, se comprueban tablas y columnas cargadas y se crean o revisan relaciones en vista Modelo o Administrar relaciones, incluidas las detectadas automáticamente. Calendario puede prepararse con M en Power Query o crearse con DAX en **Nueva tabla**; en ambas rutas su relación activa `Calendario[Fecha]` 1 a varios `Ventas[FechaVenta]` se comprueba después en el modelo. Solo entonces se crean medidas DAX con **Nueva medida**.
 
 La muestra pequeña demuestra corrección y proceso. No permite demostrar mejoras de rendimiento a escala. Los tiempos tradicionales y con IA son hipótesis didácticas, nunca promesas ni resultados observados. El tiempo con IA incluye contexto, generación, validación y retrabajo. Para comparaciones reales: mismo alcance, mismos controles de calidad, tareas equivalentes y mediana de varias repeticiones, con orden alternado.
 

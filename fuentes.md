@@ -1,6 +1,6 @@
 # Fuentes oficiales y límites verificados
 
-Consulta: **30-09-2026**. Fuentes primarias de Microsoft Learn. Son referencias para el curso; los requisitos de producto deben volver a comprobarse antes de impartirlo. Las estimaciones de ahorro de tiempo del curso son hipótesis didácticas, no resultados publicados por Microsoft ni promesas de rendimiento.
+Consulta: **01-10-2026**. Fuentes primarias de Microsoft Learn. Son referencias para el curso; los requisitos de producto deben volver a comprobarse antes de impartirlo. Las estimaciones de ahorro de tiempo del curso son hipótesis didácticas, no resultados publicados por Microsoft ni promesas de rendimiento.
 
 ## 1. Copilot para Power BI: requisitos y alcance
 
@@ -40,6 +40,8 @@ Consulta: **30-09-2026**. Fuentes primarias de Microsoft Learn. Son referencias 
 - Una expresión DAX que devuelve una tabla se crea con **Nueva tabla**; una medida se crea con **Nueva medida**. El archivo de recuperación Calendario usa la primera opción.
 - La columna elegida al marcar una tabla de fechas debe contener fechas únicas, no nulas y continuas. Se comprueba el tipo Fecha y el rango del caso antes de marcarla.
 - El estado activo y la dirección de una relación se comprueban en la vista Modelo o en Administrar relaciones. No se deducen del contrato escrito.
+- [Power Query Editor](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview) conecta y transforma; **Cerrar y aplicar** carga los resultados. [Combinar consultas](https://learn.microsoft.com/en-us/power-query/merge-queries-overview) une tablas dentro de una consulta, mientras las relaciones se configuran en el modelo.
+- Al cargar varias tablas, Power BI Desktop puede detectar relaciones. La detección puede faltar o elegir opciones distintas de las requeridas; se revisa después de cargar.
 
 ## 4. Performance Analyzer: evidencia, no intuición
 
