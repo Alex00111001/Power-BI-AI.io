@@ -18,8 +18,12 @@ laboratorio/datos/ventas_sucias.csv
 laboratorio/dax/comprobar_aa_cero.dax
 laboratorio/dax/comprobar_debugging.dax
 laboratorio/dax/comprobar_modelo.dax
+laboratorio/dax/crear_calendario_si_falta.dax
 laboratorio/dax/errores_deliberados.dax
 laboratorio/dax/medidas_solucion.dax
+laboratorio/entrada_alumno/productos.csv
+laboratorio/entrada_alumno/regiones.csv
+laboratorio/entrada_alumno/ventas.csv
 laboratorio/powerquery/01_Carpeta.m
 laboratorio/powerquery/02_Productos.m
 laboratorio/powerquery/03_Regiones.m

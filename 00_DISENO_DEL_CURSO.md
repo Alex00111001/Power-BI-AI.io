@@ -12,14 +12,14 @@ Al terminar, cada participante podrá encargar a una IA una transformación M y 
 |---|---|---|
 | 00–08 | Método y medición | Contexto, contrato de salida, límites, línea base y prompt reutilizable |
 | 08–24 | Power Query y M | Demo de 6 min, ejercicio de 6 min, revisión de 4 min. Limpieza con cuarentena y reconciliación |
-| 24–43 | DAX con IA | Contrato de 3 min, demo de 5 min, ejercicio de 7 min, validación de 4 min. Ventas, YTD y variación interanual |
+| 24–43 | DAX con IA | Comprobación del modelo real de 3 min, demo de 5 min, ejercicio de 7 min, validación de 4 min. Ventas, YTD y variación interanual |
 | 43–55 | Debugging y rendimiento | Diagnóstico de 3 min, práctica de 6 min, revisión de 3 min. Margen ponderado y filtros |
 | 55–65 | Modelado | Revisión de 3 min, reto de 4 min, discusión de 3 min. Grano, cardinalidad y propagación |
 | 65–74 | Análisis | Demo de 3 min, hipótesis de 3 min, contraste de 3 min. Hallazgos frente a causas |
 | 74–84 | Documentación y automatización | Documentación de 4 min, control repetible de 4 min, revisión de 2 min |
 | 84–90 | Cierre y transferencia | Reto final de 3 min, respuesta de 1 min, plan de aplicación y medición de 2 min |
 
-90 min incluyen preguntas durante las revisiones. Preparación técnica y montaje del modelo ocurren antes de la sesión. Un solo instructor puede impartirlo. Participantes trabajan por parejas durante ejercicios. La ruta base requiere Power BI Desktop y un asistente de IA autorizado por su organización, sin depender de Copilot integrado. Si no hay acceso a IA o red, se usan las respuestas y soluciones locales suministradas.
+90 min incluyen preguntas durante las revisiones. Preparación técnica y montaje del modelo ocurren antes de la sesión, pero antes del primer DAX cada alumno comprueba su archivo abierto frente a P01. Si falta una pieza, ese alumno sigue la recuperación paso a paso y no recibe medidas hasta demostrar que el modelo está listo; la demo común continúa con la copia preparada. Un solo instructor puede impartirlo. Participantes trabajan por parejas durante ejercicios. La ruta base requiere Power BI Desktop y un asistente de IA autorizado por su organización, sin depender de Copilot integrado. Si no hay acceso a IA o red, se usan las respuestas y soluciones locales suministradas.
 
 ## Caso común y contrato técnico
 
@@ -42,7 +42,7 @@ La muestra pequeña demuestra corrección y proceso. No permite demostrar mejora
 
 ## Secuencia de la presentación
 
-01 título; 02 resultados y agenda; 03 método de trabajo; 04 tiempos y calidad; 05 caso y contrato; 06 petición M; 07 tratamiento de errores; 08 ejercicio M; 09 reconciliación; 10 contrato DAX; 11 medidas base; 12 inteligencia temporal; 13 ejercicio DAX; 14 pruebas de filtros; 15 respuestas DAX; 16 debugging por evidencia; 17 error de margen; 18 error de filtros; 19 rendimiento medible; 20 reto de modelo; 21 relaciones correctas; 22 revisión del modelo; 23 análisis del caso; 24 hallazgo e hipótesis; 25 contraste en Power BI; 26 documentación útil; 27 automatización local; 28 Copilot y opciones de equipo; 29 reto final; 30 respuesta y evaluación; 31 ahorro medido; 32 aplicación y cierre.
+01 título; 02 resultados y agenda; 03 método de trabajo; 04 tiempos y calidad; 05 caso y contrato; 06 petición M; 07 tratamiento de errores; 08 ejercicio M; 09 reconciliación; 10 comprobación del modelo real; 11 medidas base; 12 inteligencia temporal; 13 ejercicio DAX; 14 pruebas de filtros; 15 respuestas DAX; 16 debugging por evidencia; 17 error de margen; 18 error de filtros; 19 rendimiento medible; 20 reto de modelo; 21 relaciones correctas; 22 revisión del modelo; 23 análisis del caso; 24 hallazgo e hipótesis; 25 contraste en Power BI; 26 documentación útil; 27 automatización local; 28 Copilot y opciones de equipo; 29 reto final; 30 respuesta y evaluación; 31 ahorro medido; 32 aplicación y cierre.
 
 ## Criterios de aceptación del curso
 

@@ -33,6 +33,14 @@ Consulta: **30-09-2026**. Fuentes primarias de Microsoft Learn. Son referencias 
 - Límites de resultados documentados: 15 MB y un millón de valores por consulta; web añade un máximo de 99.999 filas. No utilizar esta vista como un mecanismo de exportación masiva.
 - La cuadrícula no refleja todos los formatos del modelo. Validar números y contextos, no solo su apariencia.
 
+### Puerta de entrada del modelo y Calendario
+
+[Use calculated tables in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-calculated-tables) · [Set and use date tables](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-date-tables) · [Create and manage relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
+
+- Una expresión DAX que devuelve una tabla se crea con **Nueva tabla**; una medida se crea con **Nueva medida**. El archivo de recuperación Calendario usa la primera opción.
+- La columna elegida al marcar una tabla de fechas debe contener fechas únicas, no nulas y continuas. Se comprueba el tipo Fecha y el rango del caso antes de marcarla.
+- El estado activo y la dirección de una relación se comprueban en la vista Modelo o en Administrar relaciones. No se deducen del contrato escrito.
+
 ## 4. Performance Analyzer: evidencia, no intuición
 
 [Use Performance Analyzer to examine report performance](https://learn.microsoft.com/en-us/power-bi/create-reports/performance-analyzer)

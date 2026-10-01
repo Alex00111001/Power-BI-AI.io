@@ -18,7 +18,7 @@ Abre `indice.html` para consultar el curso completo. La página integra el conte
 | laboratorio/README_MONTAJE.md | Preparación previa del modelo en Desktop |
 | laboratorio/datos | CSV sintéticos para prácticas |
 | laboratorio/powerquery | Consultas M, solución y errores deliberados |
-| laboratorio/dax | Medidas, errores y consultas de prueba |
+| laboratorio/dax | Tabla Calendario DAX de recuperación, medidas, errores y consultas de prueba |
 | laboratorio/resultados_esperados.md | Soluciones numéricas para contrastar las demos |
 | laboratorio/automatizacion | Control local, documentación y salidas guardadas |
 | fuentes.md | Referencias oficiales de Microsoft y requisitos opcionales |
@@ -29,6 +29,6 @@ Abre `indice.html` para consultar el curso completo. La página integra el conte
 
 ## Antes de impartir
 
-Descomprime el paquete y sigue README_MONTAJE. Guarda una copia resuelta y una de práctica. Abre las soluciones locales como alternativa si falla la conexión o la IA tarda. La ruta principal funciona con una IA autorizada por tu organización y no exige Copilot integrado.
+Descomprime el paquete y sigue README_MONTAJE. Guarda una copia resuelta y una de práctica. Antes de cada medida DAX, comprueba el estado real del modelo abierto; P01 solo describe el objetivo. Si falta Calendario, sigue la ruta de recuperación de E2 y no pegues una expresión tabular en Nueva medida. Abre las soluciones locales como alternativa si falla la conexión o la IA tarda. La ruta principal funciona con una IA autorizada por tu organización y no exige Copilot integrado.
 
 Las cifras de ahorro son ejemplos didácticos y deben sustituirse por mediciones propias. El control local y los cálculos de referencia se han ejecutado; M y DAX requieren el ensayo indicado en Power BI Desktop. No se incluye un PBIX ya montado. Los documentos se entregan en HTML para lectura e impresión y en Markdown para edición.
