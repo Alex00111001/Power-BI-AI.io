@@ -1,6 +1,6 @@
 # Power-BI-AI.io
 
-Curso práctico de 60 minutos sobre Power BI + IA para profesionales que ya usan Power BI. La página autónoma contiene 24 diapositivas, seis prácticas y un recorrido G01–G20 desde los CSV hasta el análisis. En cada tarea se elige interfaz, Power Query M, DAX, IA o una combinación por sencillez, rapidez y verificabilidad. Cada prompt solicita evidencia antes de avanzar.
+Curso práctico de 60 minutos sobre Power BI + IA para profesionales que ya usan Power BI. La página autónoma contiene 12 diapositivas, seis prácticas y ocho bloques G01–G08 desde el contrato hasta la medición del trabajo. La preparación y auditoría se entrega como un script M completo; las medidas DAX se entregan como conjunto. Se valida cada bloque antes de usarlo como dependencia, sin microetapas innecesarias.
 
 El laboratorio entrega `Productos.csv`, `Regiones.csv` y `VentasOrigen.csv`, con nombres que coinciden con las consultas correspondientes.
 

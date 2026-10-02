@@ -1,34 +1,34 @@
-# Power BI + IA: trabajo profesional en 60 minutos
+# Power BI + IA · solución profesional en 60 minutos
 
-Curso práctico en español para personas que ya trabajan con Power BI. Un único caso sintético, NorteSur, se recorre **paso a paso desde los archivos hasta la solución**. En cada etapa se elige interfaz, M, DAX, IA o combinación por sencillez, rapidez, reproducibilidad y facilidad de comprobación. En NorteSur, M resuelve preparación y auditoría repetibles; la interfaz crea consultas, inspecciona, relaciona y visualiza; DAX calcula medidas. Cada G01–G20 declara herramienta, motivo, lugar del código, resultado y evidencia. No se enseña Power BI básico ni se dedican minutos a fallos inducidos.
+Curso en español para profesionales que ya usan Power BI. Un caso sintético, NorteSur, muestra cómo reducir trabajo repetitivo con IA sin perder calidad de datos, trazabilidad ni validación. El resultado final se diseña primero: fuentes → una preparación M con salidas de auditoría → modelo estrella → medidas DAX → matriz → hallazgo → documentación y medición.
 
-## Resultado y método
+## Decisión metodológica
 
-El participante termina con una carga trazable, un modelo comprobado, medidas de ventas y margen con comparación YTD, un hallazgo comercial acotado, una ficha de medida y un control repetible. Cada prompt pide directamente el entregable final, sus supuestos y una lista corta de comprobaciones. Se registra el tiempo de contexto, generación y validación. La validación confirma la entrega; no constituye un ejercicio de búsqueda de errores.
+En cada tarea se elige la opción más simple, rápida, reproducible y verificable. Interfaz para acciones únicas y visuales; M para importación y transformaciones repetitivas; DAX para medidas y contexto de filtro; IA para redactar, explicar, revisar y corregir código. Se agrupan las operaciones de una misma tarea en un bloque coherente. La comprobación se hace al final de ese bloque y antes de cualquier cálculo dependiente. Una acción sencilla puede avanzar con «listo»; una cifra, relación o conclusión necesita evidencia concreta.
 
-| Minutos | Bloque | Resultado visible |
-|---|---|---|
-| 00–07 | Fuentes, herramienta y contrato | CSV ubicados; ruta M + interfaz justificada; prompt contextual |
-| 07–21 | Preparación y auditoría con M | VentasOrigen, VentasAuditadas, Ventas, Cuarentena y ControlCarga |
-| 21–32 | Calendario y modelo | Calendario, Cerrar y aplicar, cuatro tablas y tres relaciones comprobadas |
-| 32–48 | DAX, visuales y validación | Medidas base, YTD y matriz contrastada |
-| 48–57 | Análisis, documentación y control | Hallazgo, ficha y control local |
-| 57–60 | Cierre | Tiempo completo y próxima tarea |
+| Minutos | Bloque | Entrega |
+|---:|---|---|
+| 00–07 | G01 Contrato y herramienta | P01 y tres fuentes identificadas |
+| 07–24 | G02 Preparación y auditoría | Un script M, referencias, Ventas/Cuarentena/ControlCarga/Calendario |
+| 24–31 | G03 Modelo | Cuatro tablas y tres relaciones verificadas |
+| 31–42 | G04 DAX | Ocho medidas entregadas juntas, creadas en orden y validadas en conjunto |
+| 42–48 | G05 Informe | Matriz y filtros aceptados |
+| 48–53 | G06 Hallazgo | Variación y dos hipótesis acotadas |
+| 53–57 | G07 Documentación | Ficha y control repetible |
+| 57–60 | G08 Transferencia | Registro del tiempo completo y próxima tarea |
 
-El montaje técnico puede prepararse antes de clase. En directo se muestra la secuencia completa: **fuentes → elegir herramienta → importar y normalizar con M en Power Query → auditar y conciliar → Calendario → Cerrar y aplicar → comprobar tablas y columnas → revisar relaciones en vista Modelo → Nueva medida → visual y validación**. El curso tiene un punto de control tras cada G: instructor o alumno confirma el resultado antes de continuar. Si un participante se retrasa, sigue la demostración con la copia preparada y retoma su archivo en el mismo G. No se entrega DAX para pegar en un modelo sin comprobar.
+El flujo didáctico de cada ejercicio es **problema → prompt → solución completa → lugar de aplicación → explicación breve → ejecución → validación → corrección con IA si hace falta**. El guion y cuaderno desarrollan estas ocho fases, sin clases de Power BI básico ni errores inducidos.
 
-## Contrato del caso
+## Contrato NorteSur
 
-NorteSur es una distribuidora ficticia; todos los datos son sintéticos, en EUR. Ventas tiene una fila válida por IdLinea y los campos IdLinea, FechaVenta, IdProducto, IdRegion, Cantidad, PrecioUnitario, CosteUnitario y Descuento. Productos y Regiones tienen una fila por clave. Calendario cubre cada día de 2024 y 2025, con Fecha, Ano y MesNumero, y se marca como tabla de fechas. Las dimensiones filtran Ventas mediante relaciones 1 a varios, activas y de dirección única. La relación temporal es `Calendario[Fecha]` → `Ventas[FechaVenta]`.
+Tres CSV sintéticos en EUR: `VentasOrigen.csv`, `Productos.csv` y `Regiones.csv`. Una línea válida por IdLinea. Ventas netas suma Cantidad × PrecioUnitario × (1 − Descuento) por línea; Coste suma Cantidad × CosteUnitario; Margen es diferencia; Margen % divide importes agregados. No se imputa Cantidad nula. Se rechazan fechas inválidas y claves desconocidas con motivo; solo se quitan duplicados exactos y se conserva su recuento. Calendario diario cubre 2024–2025. Relación activa 1:* y filtro único de Productos, Regiones y Calendario hacia Ventas. Comparación YTD al 31/03/2025 frente al mismo periodo de 2024. Filtros de producto y región se conservan.
 
-Ventas netas suma `Cantidad * PrecioUnitario * (1 - Descuento)` por línea. Coste suma `Cantidad * CosteUnitario`; Margen es la diferencia; Margen % divide los importes agregados. La comparación YTD usa 31/03/2025 y el mismo tramo de 2024. Se conservan los filtros de producto y región. Los datos de entrada incluyen 28 filas; la salida de referencia tiene 24 aceptadas, tres apartadas con motivo y un duplicado exacto eliminado. Esos datos no se imputan o descartan sin trazabilidad.
+Referencias independientes: entrada 28, aceptadas 24, rechazadas 3, duplicado exacto 1; 2024 ventas 28.740 y coste 18.360; 2025 ventas 30.560 y coste 20.520; 2025 R01 17.460 y R02 13.100. Son pruebas de corrección, no cifras para ajustar artificialmente la solución. La muestra pequeña no demuestra rendimiento a escala.
 
-Power Query conecta, limpia, transforma y prepara tablas, incluso Calendario con M; combinar consultas no crea relaciones. Tras **Cerrar y aplicar**, las relaciones se crean o comprueban en vista Modelo o Administrar relaciones. La detección automática de Power BI también se revisa. Calendario como tabla calculada DAX en **Nueva tabla** es una alternativa a M en el **Editor avanzado**. Las medidas DAX van a **Nueva medida**. Ambas rutas de Calendario requieren después configurar su relación.
+## Arquitectura y límites
+
+`02_PreparacionNorteSur.m` devuelve un registro con Productos, Regiones, VentasOrigen, VentasAuditadas, Ventas, Cuarentena, ControlCarga y Calendario. Seis referencias de una línea extraen las salidas; solo Productos, Regiones, Ventas y Calendario se cargan al modelo. Power Query prepara tablas, **no crea relaciones**. Tras Cerrar y aplicar se comprueban columnas y relaciones en vista Modelo. Calendario DAX en Nueva tabla es una alternativa, no una medida. Ocho medidas DAX se entregan como un conjunto con dependencias; Desktop las crea en Nueva medida. M, DAX y relaciones requieren comprobación en Power BI Desktop antes de afirmar que funcionan allí.
 
 ## Entregables
 
-Presentación editable de 24 diapositivas con notas; guion de 60 minutos; recorrido G01–G20 y cuaderno con seis entregables; prompts P01–P14 con versiones NorteSur listas para copiar (P01 conserva su plantilla); consultas M, medidas DAX, datos y solución; registro y comparativa ilustrativa de tiempo; control local y web autónoma. Los archivos de errores inducidos dejan de formar parte del curso. La muestra sirve para comprobar exactitud, no para demostrar rendimiento a escala. M y DAX deben probarse en Power BI Desktop antes de afirmar que funcionan allí.
-
-## Criterio de éxito
-
-El alumno puede copiar un prompt contextual, recibir una solución concreta y usarla en el lugar correcto. La carga reconcilia 28 = 24 + 3 + 1; la matriz muestra ventas YTD 2025 de 30.560 EUR frente a 28.740 EUR en 2024; el análisis distingue observación de causa; la documentación es reutilizable. Una comparación de ahorro exige medir el mismo alcance y nivel de calidad en ambos métodos. Las cifras ilustrativas no son promesas.
+Presentación editable con notas, guion, recorrido G01–G08, cuaderno de seis ejercicios, prompts P01–P14, código M/DAX, datos y esperados, registro/comparativa de tiempos, control Python y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.
