@@ -1,6 +1,6 @@
 # Power BI + IA: trabajo profesional en 60 minutos
 
-Curso práctico en español para personas que ya trabajan con Power BI. Un único caso sintético, NorteSur, se recorre **paso a paso desde los archivos hasta la solución**. La ruta principal usa primero la interfaz de Power BI; M aparece para una auditoría reproducible y las salidas derivadas. Cada etapa G01–G20 indica objetivo, motivo, ubicación, clics, resultado, comprobación y papel de la IA. No se enseña Power BI básico ni se dedican minutos a fallos inducidos.
+Curso práctico en español para personas que ya trabajan con Power BI. Un único caso sintético, NorteSur, se recorre **paso a paso desde los archivos hasta la solución**. En cada etapa se elige interfaz, M, DAX, IA o combinación por sencillez, rapidez, reproducibilidad y facilidad de comprobación. En NorteSur, M resuelve preparación y auditoría repetibles; la interfaz crea consultas, inspecciona, relaciona y visualiza; DAX calcula medidas. Cada G01–G20 declara herramienta, motivo, lugar del código, resultado y evidencia. No se enseña Power BI básico ni se dedican minutos a fallos inducidos.
 
 ## Resultado y método
 
@@ -8,14 +8,14 @@ El participante termina con una carga trazable, un modelo comprobado, medidas de
 
 | Minutos | Bloque | Resultado visible |
 |---|---|---|
-| 00–10 | Fuentes e importación GUI | CSV importados, VentasOrigen conservada y tipos controlados |
-| 10–22 | Auditoría y salidas con IA/M | VentasAuditadas, Ventas, Cuarentena y ControlCarga reconciliadas |
-| 22–32 | Calendario y modelo | Cerrar y aplicar, cuatro tablas y tres relaciones comprobadas |
+| 00–07 | Fuentes, herramienta y contrato | CSV ubicados; ruta M + interfaz justificada; prompt contextual |
+| 07–21 | Preparación y auditoría con M | VentasOrigen, VentasAuditadas, Ventas, Cuarentena y ControlCarga |
+| 21–32 | Calendario y modelo | Calendario, Cerrar y aplicar, cuatro tablas y tres relaciones comprobadas |
 | 32–48 | DAX, visuales y validación | Medidas base, YTD y matriz contrastada |
 | 48–57 | Análisis, documentación y control | Hallazgo, ficha y control local |
 | 57–60 | Cierre | Tiempo completo y próxima tarea |
 
-El montaje técnico puede prepararse antes de clase. En directo se muestra la secuencia completa: **fuentes → importación y normalización GUI → auditoría M derivada del origen → conciliación → Calendario → Cerrar y aplicar → comprobar tablas y columnas → revisar relaciones en vista Modelo → Nueva medida → visual y validación**. El curso tiene un punto de control tras cada G: instructor o alumno confirma el resultado antes de continuar. Si un participante se retrasa, sigue la demostración con la copia preparada y retoma su archivo en el mismo G. No se entrega DAX para pegar en un modelo sin comprobar.
+El montaje técnico puede prepararse antes de clase. En directo se muestra la secuencia completa: **fuentes → elegir herramienta → importar y normalizar con M en Power Query → auditar y conciliar → Calendario → Cerrar y aplicar → comprobar tablas y columnas → revisar relaciones en vista Modelo → Nueva medida → visual y validación**. El curso tiene un punto de control tras cada G: instructor o alumno confirma el resultado antes de continuar. Si un participante se retrasa, sigue la demostración con la copia preparada y retoma su archivo en el mismo G. No se entrega DAX para pegar en un modelo sin comprobar.
 
 ## Contrato del caso
 

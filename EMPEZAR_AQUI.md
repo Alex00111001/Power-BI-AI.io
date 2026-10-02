@@ -1,6 +1,6 @@
 # Curso Power BI + IA · 60 minutos
 
-Curso práctico y guiado para profesionales que ya trabajan con Power BI. Abre `indice.html` y empieza por **Recorrido guiado G01–G20**. Cada etapa indica qué hacer, dónde hacer clic y qué comprobar antes de avanzar. La página contiene además las 24 diapositivas, seis entregables, prompts y descargas. La versión HTML funciona sin archivos adicionales; los enlaces a Microsoft Learn requieren conexión.
+Curso práctico y guiado para profesionales que ya trabajan con Power BI. Abre `indice.html` y empieza por **Recorrido guiado G01–G20**. Cada etapa elige interfaz, M, DAX o IA por eficiencia y verificabilidad; indica dónde actuar o pegar código y qué comprobar antes de avanzar. La página contiene además las 24 diapositivas, seis entregables, prompts y descargas. La versión HTML funciona sin archivos adicionales; los enlaces a Microsoft Learn requieren conexión.
 
 | Material | Uso |
 |---|---|
@@ -16,6 +16,6 @@ Curso práctico y guiado para profesionales que ya trabajan con Power BI. Abre `
 
 ## Recorrido
 
-00–10 fuentes e importación; 10–22 auditoría y salidas con IA/M; 22–32 Calendario y modelo; 32–48 DAX, visuales y validación; 48–57 análisis, documentación y control; 57–60 cierre.
+00–07 fuentes, herramienta y contrato; 07–21 preparación y auditoría con M; 21–32 Calendario y modelo; 32–48 DAX, visuales y validación; 48–57 análisis, documentación y control; 57–60 cierre.
 
 Antes de DAX, prepara consultas en Power Query, pulsa **Cerrar y aplicar**, comprueba las cuatro tablas y columnas y revisa las relaciones en vista Modelo. M se pega en el Editor avanzado; Calendario DAX alternativo, en Nueva tabla; cada medida DAX, en Nueva medida. El laboratorio incluye una copia de solución para ahorrar tiempo de montaje. El control local ha sido ejecutado; M, DAX y relaciones requieren prueba en Power BI Desktop.
