@@ -77,7 +77,7 @@ Consulta: **01-10-2026**. Fuentes primarias de Microsoft Learn. Son referencias 
 
 - Microsoft recomienda minimizar las relaciones bidireccionales: pueden perjudicar rendimiento y producir experiencias confusas.
 - Hay escenarios legítimos, pero no se deben activar como reparación genérica de un resultado inesperado.
-- Para debugging, pedir a la IA que describa la propagación de filtros, detecte rutas y pruebe una hipótesis concreta. La propuesta debe contrastarse con subtotales y filtros previstos.
+- Si aparece una incidencia real durante el trabajo, dar a la IA el código, el filtro, el resultado observado y el esperado independiente. Pedir un cambio concreto y comprobarlo; no se dedica una práctica del curso a fallos inducidos.
 
 ## 8. PBIP: cambios de texto revisables
 

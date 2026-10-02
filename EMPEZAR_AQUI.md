@@ -1,34 +1,20 @@
-# Curso Power BI e IA para el trabajo profesional
+# Curso Power BI + IA · 60 minutos
 
-Curso completo de 90 minutos, en español, para personas que ya trabajan con Power BI. El programa se centra en ahorrar tiempo de desarrollo, diagnóstico, análisis y documentación manteniendo controles de calidad. El diseño completo precede a los materiales y queda en `00_DISENO_DEL_CURSO.md`.
+Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.html` para ver el recorrido, las 24 diapositivas, los seis ejercicios, los prompts y las descargas en una sola página. La versión HTML funciona sin archivos adicionales; los enlaces a Microsoft Learn requieren conexión.
 
-## Materiales
-
-Abre `indice.html` para consultar el curso completo. La página integra el contenido, las 32 diapositivas, las notas, los datos y el código. Puedes mover ese HTML a otra carpeta: sus enlaces internos y sus descargas siguen funcionando sin archivos externos. Solo las referencias de Microsoft Learn requieren conexión. Los archivos independientes que se describen a continuación se conservan para edición y uso en Power BI.
-
-| Archivo o carpeta | Uso |
+| Material | Uso |
 |---|---|
-| presentacion/Power_BI_IA_90_min.pptx | Presentación editable de 32 diapositivas, con tiempos y notas |
-| materiales/01_Guion_del_instructor.html | Guion listo para leer o imprimir |
-| materiales/01_Guion_del_instructor.md | Guion editable en texto |
-| materiales/02_Cuaderno_del_participante.html | Ejercicios, pistas y solucionario separado |
-| materiales/03_Prompts_reutilizables.md | Prompts adaptables al caso y al trabajo real |
-| materiales/05_Registro_de_tiempos.csv | Registro vacío para medir contexto, generación, validación y retrabajo |
-| materiales/06_Comparativa_de_tiempos.md | Ejemplo ilustrativo y método de comparación |
-| laboratorio/README_MONTAJE.md | Preparación previa del modelo en Desktop |
-| laboratorio/datos | CSV sintéticos para prácticas |
-| laboratorio/powerquery | Consultas M, solución y errores deliberados |
-| laboratorio/dax | Tabla Calendario DAX de recuperación, medidas, errores y consultas de prueba |
-| laboratorio/resultados_esperados.md | Soluciones numéricas para contrastar las demos |
-| laboratorio/automatizacion | Control local, documentación y salidas guardadas |
-| fuentes.md | Referencias oficiales de Microsoft y requisitos opcionales |
+| `presentacion/Power_BI_IA_60_min.pptx` | Presentación editable con notas |
+| `materiales/01_Guion_del_instructor.md` | Secuencia y tiempos exactos |
+| `materiales/02_Cuaderno_del_participante.md` | Prácticas y resultados esperados |
+| `materiales/03_Prompts_reutilizables.md` | P01 plantilla y P01–P14 listos para NorteSur |
+| `materiales/04_Solucionario.md` | Código y contrastes independientes |
+| `materiales/05_Registro_de_tiempos.csv` | Tiempo habitual frente a IA y validación |
+| `materiales/06_Comparativa_de_tiempos.md` | Ejemplo de comparación, no promesa |
+| `laboratorio/README_MONTAJE.md` | Preparación de Desktop |
 
-## Agenda de 90 minutos
+## Recorrido
 
-00–08 método y medición; 08–24 Power Query/M; 24–43 DAX; 43–55 debugging y rendimiento; 55–65 modelado; 65–74 análisis; 74–84 documentación y automatización; 84–90 evaluación y cierre. Los ejercicios y las revisiones ya están dentro de esos intervalos.
+00–05 contrato y medición; 05–17 Power Query; 17–25 carga y modelo; 25–39 DAX; 39–47 análisis; 47–55 documentación y automatización; 55–60 cierre.
 
-## Antes de impartir
-
-Descomprime el paquete y sigue README_MONTAJE. Guarda una copia resuelta y una de práctica. Sigue el mismo orden en la sesión: preparar consultas en Power Query, **Cerrar y aplicar**, comprobar tablas y columnas cargadas, crear o revisar relaciones en vista Modelo y, solo entonces, crear medidas DAX. Power Query no crea relaciones; combinar consultas tampoco sustituye una relación. Revisa las que Power BI haya detectado automáticamente. P01 solo describe el objetivo. Si falta Calendario, elige la ruta M en Power Query o la tabla calculada DAX de E2; no pegues una expresión tabular en Nueva medida. Abre las soluciones locales como alternativa si falla la conexión o la IA tarda. La ruta principal funciona con una IA autorizada por tu organización y no exige Copilot integrado.
-
-Las cifras de ahorro son ejemplos didácticos y deben sustituirse por mediciones propias. El control local y los cálculos de referencia se han ejecutado; M y DAX requieren el ensayo indicado en Power BI Desktop. No se incluye un PBIX ya montado. Los documentos se entregan en HTML para lectura e impresión y en Markdown para edición.
+Antes de DAX, prepara consultas en Power Query, pulsa **Cerrar y aplicar**, comprueba las cuatro tablas y columnas y revisa las relaciones en vista Modelo. M se pega en el Editor avanzado; Calendario DAX alternativo, en Nueva tabla; cada medida DAX, en Nueva medida. El laboratorio incluye una copia de solución para ahorrar tiempo de montaje. El control local ha sido ejecutado; M, DAX y relaciones requieren prueba en Power BI Desktop.

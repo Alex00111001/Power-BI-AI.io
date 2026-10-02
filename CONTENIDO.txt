@@ -1,4 +1,4 @@
-Paquete del curso Power BI + IA, 90 minutos
+Paquete del curso Power BI + IA, 60 minutos
 
 00_DISENO_DEL_CURSO.md
 CONTENIDO.txt
@@ -16,10 +16,8 @@ laboratorio/datos/productos.csv
 laboratorio/datos/regiones.csv
 laboratorio/datos/ventas_sucias.csv
 laboratorio/dax/comprobar_aa_cero.dax
-laboratorio/dax/comprobar_debugging.dax
 laboratorio/dax/comprobar_modelo.dax
 laboratorio/dax/crear_calendario_si_falta.dax
-laboratorio/dax/errores_deliberados.dax
 laboratorio/dax/medidas_solucion.dax
 laboratorio/entrada_alumno/productos.csv
 laboratorio/entrada_alumno/regiones.csv
@@ -33,7 +31,6 @@ laboratorio/powerquery/06_Ventas.m
 laboratorio/powerquery/07_Cuarentena.m
 laboratorio/powerquery/08_ControlCarga.m
 laboratorio/powerquery/09_Calendario.m
-laboratorio/powerquery/errores_deliberados_M.m
 laboratorio/README_MONTAJE.md
 laboratorio/resultados_esperados.json
 laboratorio/resultados_esperados.md
@@ -50,4 +47,4 @@ materiales/05_Registro_de_tiempos.csv
 materiales/06_Comparativa_de_tiempos.html
 materiales/06_Comparativa_de_tiempos.md
 presentacion/notas_presentacion.txt
-presentacion/Power_BI_IA_90_min.pptx
+presentacion/Power_BI_IA_60_min.pptx
