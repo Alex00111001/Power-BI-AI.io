@@ -1,6 +1,6 @@
 # Power BI + IA: trabajo profesional en 60 minutos
 
-Curso práctico en español para personas que ya trabajan con Power BI. Un único caso sintético, NorteSur, muestra cómo obtener con IA una propuesta de M, DAX, análisis o documentación y llevarla a Power BI con una comprobación breve. No se enseña Power BI básico ni se dedican minutos a fallos inducidos.
+Curso práctico en español para personas que ya trabajan con Power BI. Un único caso sintético, NorteSur, se recorre **paso a paso desde los archivos hasta la solución**. La ruta principal usa primero la interfaz de Power BI; M aparece para una auditoría reproducible y las salidas derivadas. Cada etapa G01–G20 indica objetivo, motivo, ubicación, clics, resultado, comprobación y papel de la IA. No se enseña Power BI básico ni se dedican minutos a fallos inducidos.
 
 ## Resultado y método
 
@@ -8,15 +8,14 @@ El participante termina con una carga trazable, un modelo comprobado, medidas de
 
 | Minutos | Bloque | Resultado visible |
 |---|---|---|
-| 00–05 | Objetivo, contrato y cronómetro | P01 contextual y criterio de entrega |
-| 05–17 | Power Query con IA | M listo para usar, Ventas, Cuarentena y ControlCarga |
-| 17–25 | Carga y modelo | Cuatro tablas y tres relaciones comprobadas |
-| 25–39 | DAX con IA | Medidas base, YTD y matriz de aceptación |
-| 39–47 | Análisis del caso | Hallazgo, hipótesis y contraste |
-| 47–55 | Documentación y automatización | Ficha de Margen % y control local |
-| 55–60 | Cierre | Tiempo completo, límites y siguiente tarea |
+| 00–10 | Fuentes e importación GUI | CSV importados, VentasOrigen conservada y tipos controlados |
+| 10–22 | Auditoría y salidas con IA/M | VentasAuditadas, Ventas, Cuarentena y ControlCarga reconciliadas |
+| 22–32 | Calendario y modelo | Cerrar y aplicar, cuatro tablas y tres relaciones comprobadas |
+| 32–48 | DAX, visuales y validación | Medidas base, YTD y matriz contrastada |
+| 48–57 | Análisis, documentación y control | Hallazgo, ficha y control local |
+| 57–60 | Cierre | Tiempo completo y próxima tarea |
 
-El montaje técnico puede prepararse antes de clase. En directo se muestra la secuencia completa: **Power Query → Cerrar y aplicar → comprobar tablas y columnas → revisar relaciones en vista Modelo → Nueva medida**. Si el archivo de un participante no está listo, usa la copia preparada mientras recibe una corrección puntual. No se entrega DAX para pegar en un modelo sin comprobar.
+El montaje técnico puede prepararse antes de clase. En directo se muestra la secuencia completa: **fuentes → importación y normalización GUI → auditoría M derivada del origen → conciliación → Calendario → Cerrar y aplicar → comprobar tablas y columnas → revisar relaciones en vista Modelo → Nueva medida → visual y validación**. El curso tiene un punto de control tras cada G: instructor o alumno confirma el resultado antes de continuar. Si un participante se retrasa, sigue la demostración con la copia preparada y retoma su archivo en el mismo G. No se entrega DAX para pegar en un modelo sin comprobar.
 
 ## Contrato del caso
 
@@ -28,7 +27,7 @@ Power Query conecta, limpia, transforma y prepara tablas, incluso Calendario con
 
 ## Entregables
 
-Presentación editable de 24 diapositivas con notas; guion de 60 minutos; cuaderno con seis prácticas breves; prompts P01–P14 con versiones NorteSur listas para copiar (P01 conserva su plantilla); consultas M, medidas DAX, datos y solución; registro y comparativa ilustrativa de tiempo; control local y web autónoma. Los archivos de errores inducidos dejan de formar parte del curso. La muestra sirve para comprobar exactitud, no para demostrar rendimiento a escala. M y DAX deben probarse en Power BI Desktop antes de afirmar que funcionan allí.
+Presentación editable de 24 diapositivas con notas; guion de 60 minutos; recorrido G01–G20 y cuaderno con seis entregables; prompts P01–P14 con versiones NorteSur listas para copiar (P01 conserva su plantilla); consultas M, medidas DAX, datos y solución; registro y comparativa ilustrativa de tiempo; control local y web autónoma. Los archivos de errores inducidos dejan de formar parte del curso. La muestra sirve para comprobar exactitud, no para demostrar rendimiento a escala. M y DAX deben probarse en Power BI Desktop antes de afirmar que funcionan allí.
 
 ## Criterio de éxito
 

@@ -46,5 +46,7 @@ materiales/04_Solucionario.md
 materiales/05_Registro_de_tiempos.csv
 materiales/06_Comparativa_de_tiempos.html
 materiales/06_Comparativa_de_tiempos.md
+materiales/07_Recorrido_guiado.html
+materiales/07_Recorrido_guiado.md
 presentacion/notas_presentacion.txt
 presentacion/Power_BI_IA_60_min.pptx
