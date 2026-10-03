@@ -17,7 +17,7 @@ En cada tarea se elige la opción más simple, rápida, reproducible y verificab
 | 80–105 | G07 Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
 | 105–110 | G08 Transferencia | Registro del tiempo completo y próxima tarea |
 
-El flujo didáctico de cada ejercicio es **problema → prompt → solución completa → lugar de aplicación → explicación breve → ejecución → validación**. P06 queda como recurso de apoyo fuera del recorrido obligatorio: se usa solo si una comprobación real falla y se omite si coincide. El guion y cuaderno desarrollan los ocho bloques sin clases de Power BI básico ni errores inducidos.
+El flujo didáctico de cada ejercicio es **problema → prompt → solución completa → lugar de aplicación → explicación breve → ejecución → validación**. El guion y cuaderno desarrollan los ocho bloques sin clases de Power BI básico ni errores inducidos.
 
 ## Contrato NorteSur
 
