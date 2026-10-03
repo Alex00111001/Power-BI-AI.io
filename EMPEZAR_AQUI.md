@@ -4,11 +4,11 @@ Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.ht
 
 | Material | Uso |
 |---|---|
-| `presentacion/Power_BI_IA_Curso_actualizado.pptx` | Presentación editable con notas |
-| `materiales/01_Guion_del_instructor.md` | Secuencia y tiempos exactos |
+| `presentacion/Power_BI_IA_Presentacion_ampliada.pptx` | Presentación editable de 26 diapositivas con notas del instructor |
+| `materiales/01_Guion_del_instructor.md` | Secuencia, tiempos orientativos y mapa de las diapositivas |
 | `materiales/02_Cuaderno_del_participante.md` | Prácticas y resultados esperados |
 | `materiales/07_Recorrido_guiado.md` | Ocho bloques desde contrato hasta solución |
-| `materiales/03_Prompts_reutilizables.md` | P01 plantilla y P01–P14 listos para NorteSur |
+| `materiales/03_Prompts_reutilizables.md` | P01 plantilla y 13 prompts para NorteSur |
 | `materiales/04_Solucionario.md` | Código y contrastes independientes |
 | `materiales/05_Registro_de_tiempos.csv` | Tiempo habitual frente a IA y validación |
 | `materiales/06_Comparativa_de_tiempos.md` | Ejemplo de comparación, no promesa |

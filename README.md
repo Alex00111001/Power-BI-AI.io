@@ -1,6 +1,6 @@
 # Power-BI-AI.io
 
-Curso práctico de 110 minutos orientativos sobre Power BI + IA para profesionales que ya usan Power BI. La página autónoma contiene 12 diapositivas, seis prácticas y ocho bloques G01–G08 desde el contrato hasta la medición del trabajo. La preparación y auditoría se entrega como un script M completo; las medidas DAX se entregan como conjunto. En G07 la IA genera desde cero un script Python del alumno, que contrasta archivos y referencias sin modificar CSV ni esperados. Python no ejecuta M ni DAX; el alumno confirma los resultados en Desktop.
+Curso práctico de 110 minutos orientativos sobre Power BI + IA para profesionales que ya usan Power BI. La página autónoma contiene 26 diapositivas, seis prácticas y ocho bloques G01–G08 desde el contrato hasta la medición del trabajo. La preparación y auditoría se entrega como un script M completo; las medidas DAX se entregan como conjunto. En G07 la IA genera desde cero un script Python del alumno, que contrasta archivos y referencias sin modificar CSV ni esperados. Python no ejecuta M ni DAX; el alumno confirma los resultados en Desktop.
 
 El laboratorio entrega `Productos.csv`, `Regiones.csv` y `VentasOrigen.csv`, con nombres que coinciden con las consultas correspondientes.
 

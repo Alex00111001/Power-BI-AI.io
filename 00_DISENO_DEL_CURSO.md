@@ -31,4 +31,4 @@ Referencias independientes: entrada 28, aceptadas 24, rechazadas 3, duplicado ex
 
 ## Entregables
 
-Presentación editable con notas, guion, recorrido G01–G08, cuaderno de seis ejercicios, prompts P01–P14, código M/DAX, datos y esperados, registro/comparativa de tiempos, ejercicio Python generado por IA y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.
+Presentación editable de 26 diapositivas con notas del instructor, guion, recorrido G01–G08, cuaderno de seis ejercicios, prompts reutilizables, código M/DAX, datos y esperados, registro/comparativa de tiempos, ejercicio Python generado por IA y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.
