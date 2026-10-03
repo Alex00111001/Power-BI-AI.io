@@ -4,7 +4,7 @@ Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.ht
 
 | Material | Uso |
 |---|---|
-| `presentacion/Power_BI_IA_Presentacion_01-08.pptx` | Presentación editable de 26 diapositivas con notas del instructor |
+| `presentacion/Power_BI_IA_Presentacion_P01-P13.pptx` | Presentación editable de 26 diapositivas con notas del instructor |
 | `materiales/01_Guion_del_instructor.md` | Secuencia, tiempos orientativos y mapa de las diapositivas |
 | `materiales/02_Cuaderno_del_participante.md` | Prácticas y resultados esperados |
 | `materiales/07_Recorrido_guiado.md` | Ocho bloques desde contrato hasta solución |
@@ -18,4 +18,4 @@ Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.ht
 
 00–08 contrato y herramienta; 08–33 bloque M y validación; 33–45 modelo; 45–62 DAX; 62–72 matriz; 72–80 análisis; 80–105 documentación/control; 105–110 medición y cierre.
 
-Antes de DAX, pega `02_PreparacionNorteSur.m` en el **Editor avanzado** de Power Query, crea las salidas de `03_Salidas.md`, valida ControlCarga/Cuarentena/Calendario, pulsa **Cerrar y aplicar** y comprueba cuatro tablas y tres relaciones. Calendario DAX alternativo va en **Nueva tabla**; cada definición DAX se pega en **Nueva medida**. P12 hace que la IA genere una automatización Python nueva para el alumno; no se ejecuta ni adapta la referencia del instructor. Python contrasta archivos y referencias, pero no ejecuta M, DAX ni relaciones. El alumno debe comparar la evidencia con Power BI Desktop.
+Antes de DAX, pega `02_PreparacionNorteSur.m` en el **Editor avanzado** de Power Query, crea las salidas de `03_Salidas.md`, valida ControlCarga/Cuarentena/Calendario, pulsa **Cerrar y aplicar** y comprueba cuatro tablas y tres relaciones. Calendario DAX alternativo va en **Nueva tabla**; cada definición DAX se pega en **Nueva medida**. P11 hace que la IA genere una automatización Python nueva para el alumno; no se ejecuta ni adapta la referencia del instructor. Python contrasta archivos y referencias, pero no ejecuta M, DAX ni relaciones. El alumno debe comparar la evidencia con Power BI Desktop.
