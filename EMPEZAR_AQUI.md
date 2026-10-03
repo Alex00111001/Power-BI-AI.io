@@ -1,6 +1,6 @@
 # Curso Power BI + IA · 110 minutos orientativos
 
-Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.html` y sigue **01–08**. Las operaciones compatibles se agrupan: un bloque M prepara y audita NorteSur, las relaciones se comprueban juntas y las medidas DAX se entregan como una solución. Se valida cada resultado que condiciona el siguiente bloque, sin capturas por acciones triviales. Los 110 minutos son orientativos: completa la comprobación de cada bloque antes de continuar. La página incluye presentación editable, seis entregables, prompts y descargas; funciona sin archivos externos, salvo enlaces a Microsoft Learn.
+Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.html` y sigue los bloques **01–08** con los prompts **P01–P13 de uno en uno**. Cada prompt se ejecuta, se valida y se cierra antes de que el alumno envíe el siguiente. Se agrupan operaciones compatibles dentro de un mismo prompt, sin fusionar prompts distintos. «Listo» sirve para acciones sencillas; cifras, columnas y relaciones requieren evidencia real. Los 110 minutos son orientativos. La página incluye presentación editable, seis entregables, prompts y descargas; funciona sin archivos externos, salvo enlaces a Microsoft Learn.
 
 | Material | Uso |
 |---|---|

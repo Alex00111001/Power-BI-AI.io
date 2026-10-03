@@ -4,20 +4,20 @@ Curso en español para profesionales que ya usan Power BI. Un caso sintético, N
 
 ## Decisión metodológica
 
-En cada tarea se elige la opción más simple, rápida, reproducible y verificable. Interfaz para acciones únicas y visuales; M para importación y transformaciones repetitivas; DAX para medidas y contexto de filtro; IA para redactar, explicar, revisar y corregir código. Se agrupan las operaciones de una misma tarea en un bloque coherente. La comprobación se hace al final de ese bloque y antes de cualquier cálculo dependiente. Una acción sencilla puede avanzar con «listo»; una cifra, relación o conclusión necesita evidencia concreta.
+En cada tarea se elige la opción más simple, rápida, reproducible y verificable. Interfaz para acciones únicas y visuales; M para importación y transformaciones repetitivas; DAX para medidas y contexto de filtro; IA para redactar, explicar, revisar y corregir código. **P01–P13 se envían de uno en uno**. Dentro de PXX se pueden agrupar operaciones relacionadas, pero el asistente valida su resultado, declara «PXX completado y validado», se detiene y pide el siguiente prompt. Nunca inicia PXX+1 por iniciativa propia. Una acción sencilla puede validarse con «listo»; una cifra, relación o conclusión necesita evidencia concreta.
 
 | Minutos | Bloque | Entrega |
 |---:|---|---|
 | 00–08 | 01 · Contrato y herramienta | P01 y tres fuentes identificadas |
 | 08–33 | 02 · Preparación y auditoría | Un script M, referencias, Ventas/Cuarentena/ControlCarga/Calendario |
 | 33–45 | 03 · Modelo | Cuatro tablas y tres relaciones verificadas |
-| 45–62 | 04 · DAX | Ocho medidas entregadas juntas, creadas en orden y validadas en conjunto |
+| 45–62 | 04 · DAX | P05: cuatro medidas base; P06: cuatro medidas YTD después de validar P05 |
 | 62–72 | 05 · Informe | Matriz y filtros aceptados |
 | 72–80 | 06 · Hallazgo | Variación y dos hipótesis acotadas |
 | 80–105 | 07 · Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
 | 105–110 | 08 · Transferencia | Registro del tiempo completo y próxima tarea |
 
-El flujo didáctico de cada ejercicio es **problema → prompt → solución completa → lugar de aplicación → explicación breve → ejecución → validación**. El guion y cuaderno desarrollan los ocho bloques sin clases de Power BI básico ni errores inducidos.
+El flujo didáctico de cada prompt es **problema → PXX → solución dentro de PXX → ejecución → evidencia → validación → cierre → espera del siguiente prompt**. Los ocho bloques organizan temas y tiempo, pero no autorizan fusionar prompts. El guion y cuaderno desarrollan el recorrido sin clases de Power BI básico ni errores inducidos.
 
 ## Contrato NorteSur
 
@@ -27,7 +27,7 @@ Referencias independientes: entrada 28, aceptadas 24, rechazadas 3, duplicado ex
 
 ## Arquitectura y límites
 
-`02_PreparacionNorteSur.m` devuelve un registro con Productos, Regiones, VentasOrigen, VentasAuditadas, Ventas, Cuarentena, ControlCarga y Calendario. Seis referencias de una línea extraen las salidas; solo Productos, Regiones, Ventas y Calendario se cargan al modelo. Power Query prepara tablas, **no crea relaciones**. Tras Cerrar y aplicar se comprueban columnas y relaciones en vista Modelo. Calendario DAX en Nueva tabla es una alternativa, no una medida. Ocho medidas DAX se entregan como un conjunto con dependencias; Desktop las crea en Nueva medida. M, DAX y relaciones requieren comprobación en Power BI Desktop antes de afirmar que funcionan allí.
+`02_PreparacionNorteSur.m` devuelve un registro con Productos, Regiones, VentasOrigen, VentasAuditadas, Ventas, Cuarentena, ControlCarga y Calendario. Seis referencias de una línea extraen las salidas; solo Productos, Regiones, Ventas y Calendario se cargan al modelo. Power Query prepara tablas, **no crea relaciones**. Tras Cerrar y aplicar se comprueban columnas y relaciones en vista Modelo. Calendario DAX en Nueva tabla es una alternativa, no una medida. Las cuatro medidas de P05 y las cuatro de P06 se entregan y validan en grupos separados; Desktop las crea en Nueva medida. M, DAX y relaciones requieren comprobación en Power BI Desktop antes de afirmar que funcionan allí.
 
 ## Entregables
 
