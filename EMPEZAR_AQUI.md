@@ -1,10 +1,10 @@
-# Curso Power BI + IA · 60 minutos
+# Curso Power BI + IA · 110 minutos orientativos
 
-Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.html` y sigue **G01–G08**. Las operaciones compatibles se agrupan: un bloque M prepara y audita NorteSur, las relaciones se comprueban juntas y las medidas DAX se entregan como una solución. Se valida cada resultado que condiciona el siguiente bloque, sin capturas por acciones triviales. La página incluye presentación editable, seis entregables, prompts y descargas; funciona sin archivos externos, salvo enlaces a Microsoft Learn.
+Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.html` y sigue **G01–G08**. Las operaciones compatibles se agrupan: un bloque M prepara y audita NorteSur, las relaciones se comprueban juntas y las medidas DAX se entregan como una solución. Se valida cada resultado que condiciona el siguiente bloque, sin capturas por acciones triviales. Los 110 minutos son orientativos: completa la comprobación de cada bloque antes de continuar. P06 solo sirve de apoyo si aparece una incidencia real; omítelo cuando los controles coincidan. La página incluye presentación editable, seis entregables, prompts y descargas; funciona sin archivos externos, salvo enlaces a Microsoft Learn.
 
 | Material | Uso |
 |---|---|
-| `presentacion/Power_BI_IA_60_min.pptx` | Presentación editable con notas |
+| `presentacion/Power_BI_IA_Curso_completo.pptx` | Presentación editable con notas |
 | `materiales/01_Guion_del_instructor.md` | Secuencia y tiempos exactos |
 | `materiales/02_Cuaderno_del_participante.md` | Prácticas y resultados esperados |
 | `materiales/07_Recorrido_guiado.md` | Ocho bloques desde contrato hasta solución |
@@ -16,6 +16,6 @@ Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.ht
 
 ## Recorrido
 
-00–07 contrato y herramienta; 07–24 bloque M y validación; 24–31 modelo; 31–42 DAX; 42–48 matriz; 48–53 análisis; 53–57 documentación/control; 57–60 medición y cierre.
+00–08 contrato y herramienta; 08–33 bloque M y validación; 33–45 modelo; 45–62 DAX; 62–72 matriz; 72–80 análisis; 80–105 documentación/control; 105–110 medición y cierre.
 
-Antes de DAX, pega `02_PreparacionNorteSur.m` en el **Editor avanzado** de Power Query, crea las salidas de `03_Salidas.md`, valida ControlCarga/Cuarentena/Calendario, pulsa **Cerrar y aplicar** y comprueba cuatro tablas y tres relaciones. Calendario DAX alternativo va en **Nueva tabla**; cada definición DAX se pega en **Nueva medida**. El control local se ha ejecutado; M, DAX y relaciones requieren prueba en Power BI Desktop.
+Antes de DAX, pega `02_PreparacionNorteSur.m` en el **Editor avanzado** de Power Query, crea las salidas de `03_Salidas.md`, valida ControlCarga/Cuarentena/Calendario, pulsa **Cerrar y aplicar** y comprueba cuatro tablas y tres relaciones. Calendario DAX alternativo va en **Nueva tabla**; cada definición DAX se pega en **Nueva medida**. P12 hace que la IA genere una automatización Python nueva para el alumno; no se ejecuta ni adapta la referencia del instructor. Python contrasta archivos y referencias, pero no ejecuta M, DAX ni relaciones. El alumno debe comparar la evidencia con Power BI Desktop.

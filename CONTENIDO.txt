@@ -1,17 +1,10 @@
-Paquete del curso Power BI + IA, 60 minutos
+Paquete del curso Power BI + IA, 110 minutos orientativos
 
 00_DISENO_DEL_CURSO.md
 CONTENIDO.txt
 EMPEZAR_AQUI.md
 fuentes.md
-indice.html
 laboratorio/automatizacion/baseline_hashes.json
-laboratorio/automatizacion/salida/cuarentena.csv
-laboratorio/automatizacion/salida/diccionario.md
-laboratorio/automatizacion/salida/estado.json
-laboratorio/automatizacion/salida/resumen.json
-laboratorio/automatizacion/salida/resumen.md
-laboratorio/automatizacion/verificar_y_documentar.py
 laboratorio/datos/Productos.csv
 laboratorio/datos/Regiones.csv
 laboratorio/datos/VentasOrigen.csv
@@ -43,4 +36,4 @@ materiales/06_Comparativa_de_tiempos.md
 materiales/07_Recorrido_guiado.html
 materiales/07_Recorrido_guiado.md
 presentacion/notas_presentacion.txt
-presentacion/Power_BI_IA_60_min.pptx
+presentacion/Power_BI_IA_Curso_completo.pptx
