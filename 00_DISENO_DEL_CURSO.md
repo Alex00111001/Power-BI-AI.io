@@ -8,14 +8,14 @@ En cada tarea se elige la opción más simple, rápida, reproducible y verificab
 
 | Minutos | Bloque | Entrega |
 |---:|---|---|
-| 00–08 | G01 Contrato y herramienta | P01 y tres fuentes identificadas |
-| 08–33 | G02 Preparación y auditoría | Un script M, referencias, Ventas/Cuarentena/ControlCarga/Calendario |
-| 33–45 | G03 Modelo | Cuatro tablas y tres relaciones verificadas |
-| 45–62 | G04 DAX | Ocho medidas entregadas juntas, creadas en orden y validadas en conjunto |
-| 62–72 | G05 Informe | Matriz y filtros aceptados |
-| 72–80 | G06 Hallazgo | Variación y dos hipótesis acotadas |
-| 80–105 | G07 Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
-| 105–110 | G08 Transferencia | Registro del tiempo completo y próxima tarea |
+| 00–08 | 01 · Contrato y herramienta | P01 y tres fuentes identificadas |
+| 08–33 | 02 · Preparación y auditoría | Un script M, referencias, Ventas/Cuarentena/ControlCarga/Calendario |
+| 33–45 | 03 · Modelo | Cuatro tablas y tres relaciones verificadas |
+| 45–62 | 04 · DAX | Ocho medidas entregadas juntas, creadas en orden y validadas en conjunto |
+| 62–72 | 05 · Informe | Matriz y filtros aceptados |
+| 72–80 | 06 · Hallazgo | Variación y dos hipótesis acotadas |
+| 80–105 | 07 · Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
+| 105–110 | 08 · Transferencia | Registro del tiempo completo y próxima tarea |
 
 El flujo didáctico de cada ejercicio es **problema → prompt → solución completa → lugar de aplicación → explicación breve → ejecución → validación**. El guion y cuaderno desarrollan los ocho bloques sin clases de Power BI básico ni errores inducidos.
 
@@ -31,4 +31,4 @@ Referencias independientes: entrada 28, aceptadas 24, rechazadas 3, duplicado ex
 
 ## Entregables
 
-Presentación editable de 26 diapositivas con notas del instructor, guion, recorrido G01–G08, cuaderno de seis ejercicios, prompts reutilizables, código M/DAX, datos y esperados, registro/comparativa de tiempos, ejercicio Python generado por IA y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.
+Presentación editable de 26 diapositivas con notas del instructor, guion, recorrido 01–08, cuaderno de seis ejercicios, prompts reutilizables, código M/DAX, datos y esperados, registro/comparativa de tiempos, ejercicio Python generado por IA y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.

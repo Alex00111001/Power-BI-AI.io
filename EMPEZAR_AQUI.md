@@ -1,10 +1,10 @@
 # Curso Power BI + IA · 110 minutos orientativos
 
-Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.html` y sigue **G01–G08**. Las operaciones compatibles se agrupan: un bloque M prepara y audita NorteSur, las relaciones se comprueban juntas y las medidas DAX se entregan como una solución. Se valida cada resultado que condiciona el siguiente bloque, sin capturas por acciones triviales. Los 110 minutos son orientativos: completa la comprobación de cada bloque antes de continuar. La página incluye presentación editable, seis entregables, prompts y descargas; funciona sin archivos externos, salvo enlaces a Microsoft Learn.
+Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.html` y sigue **01–08**. Las operaciones compatibles se agrupan: un bloque M prepara y audita NorteSur, las relaciones se comprueban juntas y las medidas DAX se entregan como una solución. Se valida cada resultado que condiciona el siguiente bloque, sin capturas por acciones triviales. Los 110 minutos son orientativos: completa la comprobación de cada bloque antes de continuar. La página incluye presentación editable, seis entregables, prompts y descargas; funciona sin archivos externos, salvo enlaces a Microsoft Learn.
 
 | Material | Uso |
 |---|---|
-| `presentacion/Power_BI_IA_Presentacion_ampliada.pptx` | Presentación editable de 26 diapositivas con notas del instructor |
+| `presentacion/Power_BI_IA_Presentacion_01-08.pptx` | Presentación editable de 26 diapositivas con notas del instructor |
 | `materiales/01_Guion_del_instructor.md` | Secuencia, tiempos orientativos y mapa de las diapositivas |
 | `materiales/02_Cuaderno_del_participante.md` | Prácticas y resultados esperados |
 | `materiales/07_Recorrido_guiado.md` | Ocho bloques desde contrato hasta solución |
