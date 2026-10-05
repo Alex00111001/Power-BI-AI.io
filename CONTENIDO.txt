@@ -1,4 +1,4 @@
-Paquete del curso Power BI + IA, 110 minutos orientativos
+Paquete del curso Power BI de 0 a la automatización con ChatGPT, 110 minutos orientativos
 
 00_DISENO_DEL_CURSO.md
 CONTENIDO.txt
@@ -36,4 +36,4 @@ materiales/06_Comparativa_de_tiempos.md
 materiales/07_Recorrido_guiado.html
 materiales/07_Recorrido_guiado.md
 presentacion/notas_presentacion.txt
-presentacion/Power_BI_IA_Presentacion_P01-P13.pptx
+presentacion/Power_BI_de_0_a_la_automatizacion_con_ChatGPT.pptx

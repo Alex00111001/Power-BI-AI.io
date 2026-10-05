@@ -125,3 +125,11 @@ Consulta: **02-10-2026**. Fuentes primarias de Microsoft Learn. Son referencias 
 ## Uso en la formación
 
 La ruta principal debe funcionar con Power BI Desktop, los archivos sintéticos entregados y una herramienta de IA autorizada. Preparar respuestas guardadas como alternativa si hay latencia o falta de acceso. La extensión Copilot se demuestra únicamente cuando se hayan validado capacidad, región, permisos y configuración. Las fuentes respaldan comportamientos del producto; no respaldan cifras concretas de ahorro laboral.
+
+
+## Preparación reproducible y trazabilidad de P02
+
+- [Table.AddIndexColumn](https://learn.microsoft.com/en-us/powerquery-m/table-addindexcolumn): índice FilaOrigen.
+- [Table.Group](https://learn.microsoft.com/en-us/powerquery-m/table-group): agrupación por las ocho columnas originales. No garantiza orden; se toma el índice mínimo explícitamente.
+- [Table.NestedJoin](https://learn.microsoft.com/en-us/powerquery-m/table-nestedjoin): asociación de la primera aparición a cada fila.
+- [Date.FromText](https://learn.microsoft.com/en-us/powerquery-m/date-fromtext): formato y cultura explícitos.

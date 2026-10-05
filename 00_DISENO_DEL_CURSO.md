@@ -1,17 +1,17 @@
-# Power BI + IA · solución profesional en 110 minutos orientativos
+# Power BI de 0 a la automatización con ChatGPT · solución profesional en 110 minutos orientativos
 
 Curso en español para profesionales que ya usan Power BI. Un caso sintético, NorteSur, muestra cómo reducir trabajo repetitivo con IA sin perder calidad de datos, trazabilidad ni validación. El resultado final se diseña primero: fuentes → una preparación M con salidas de auditoría → modelo estrella → medidas DAX → matriz → hallazgo → documentación y medición. Los 110 minutos son una orientación para una práctica completa; cada bloque avanza al comprobar su resultado, no al llegar a una hora fija.
 
 ## Decisión metodológica
 
-En cada tarea se elige la opción más simple, rápida, reproducible y verificable. Interfaz para acciones únicas y visuales; M para importación y transformaciones repetitivas; DAX para medidas y contexto de filtro; IA para redactar, explicar, revisar y corregir código. **P01–P13 se envían de uno en uno**. Dentro de PXX se pueden agrupar operaciones relacionadas, pero el asistente valida su resultado, declara «PXX completado y validado», se detiene y pide el siguiente prompt. Nunca inicia PXX+1 por iniciativa propia. Una acción sencilla puede validarse con «listo»; una cifra, relación o conclusión necesita evidencia concreta.
+En cada tarea se elige la opción más simple, rápida, reproducible y verificable. Interfaz para acciones únicas y visuales; M para importación y transformaciones repetitivas; DAX para medidas y contexto de filtro; IA para redactar, explicar, revisar y corregir código. **P01–P12 se envían de uno en uno**. Dentro de PXX se pueden agrupar operaciones relacionadas, pero el asistente valida su resultado, declara «PXX completado y validado», se detiene y pide el siguiente prompt. Nunca inicia PXX+1 por iniciativa propia. Una acción sencilla puede validarse con «listo»; una cifra, relación o conclusión necesita evidencia concreta.
 
 | Minutos | Bloque | Entrega |
 |---:|---|---|
 | 00–08 | 01 · Contrato y herramienta | P01 y tres fuentes identificadas |
 | 08–33 | 02 · Preparación y auditoría | Un script M, referencias, Ventas/Cuarentena/ControlCarga/Calendario |
 | 33–45 | 03 · Modelo | Cuatro tablas y tres relaciones verificadas |
-| 45–62 | 04 · DAX | P05: cuatro medidas base; P06: cuatro medidas YTD después de validar P05 |
+| 45–62 | 04 · DAX | P04: cuatro medidas base; P05: cuatro medidas YTD después de validar P04 |
 | 62–72 | 05 · Informe | Matriz y filtros aceptados |
 | 72–80 | 06 · Hallazgo | Variación y dos hipótesis acotadas |
 | 80–105 | 07 · Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
@@ -27,7 +27,7 @@ Referencias independientes: entrada 28, aceptadas 24, rechazadas 3, duplicado ex
 
 ## Arquitectura y límites
 
-`02_PreparacionNorteSur.m` devuelve un registro con Productos, Regiones, VentasOrigen, VentasAuditadas, Ventas, Cuarentena, ControlCarga y Calendario. Seis referencias de una línea extraen las salidas; solo Productos, Regiones, Ventas y Calendario se cargan al modelo. Power Query prepara tablas, **no crea relaciones**. Tras Cerrar y aplicar se comprueban columnas y relaciones en vista Modelo. Calendario DAX en Nueva tabla es una alternativa, no una medida. Las cuatro medidas de P05 y las cuatro de P06 se entregan y validan en grupos separados; Desktop las crea en Nueva medida. M, DAX y relaciones requieren comprobación en Power BI Desktop antes de afirmar que funcionan allí.
+`02_PreparacionNorteSur.m` devuelve un registro con Productos, Regiones, VentasOrigen, DuplicadosExactos, Ventas, Cuarentena, ControlCarga y Calendario. VentasOrigen conserva FilaOrigen y los ocho valores originales. DuplicadosExactos registra solo las apariciones posteriores; Cuarentena conserva originales, conversiones y todas las causas. ControlCarga calcula recuentos y reconciliación desde las tablas. Seis referencias de una línea extraen las salidas; solo Productos, Regiones, Ventas y Calendario se cargan al modelo. Power Query prepara tablas, **no crea relaciones**. Tras Cerrar y aplicar se comprueban columnas y relaciones en vista Modelo. Calendario DAX en Nueva tabla es una alternativa, no una medida. Las cuatro medidas de P04 y las cuatro de P05 se entregan y validan en grupos separados; Desktop las crea en Nueva medida. M, DAX y relaciones requieren comprobación en Power BI Desktop antes de afirmar que funcionan allí.
 
 ## Entregables
 
