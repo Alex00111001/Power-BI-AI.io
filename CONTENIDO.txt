@@ -30,9 +30,10 @@ materiales/03_Prompts_reutilizables.md
 materiales/03_Prompts_reutilizables.txt
 materiales/04_Solucionario.html
 materiales/04_Solucionario.md
-materiales/05_Registro_de_tiempos.csv
-materiales/06_Comparativa_de_tiempos.html
-materiales/06_Comparativa_de_tiempos.md
+materiales/05_Hallazgos_con_IA.html
+materiales/05_Hallazgos_con_IA.md
+materiales/06_Conclusion_verificable.html
+materiales/06_Conclusion_verificable.md
 materiales/07_Recorrido_guiado.html
 materiales/07_Recorrido_guiado.md
 presentacion/notas_presentacion.txt

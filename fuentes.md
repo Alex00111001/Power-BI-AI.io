@@ -38,7 +38,7 @@ Consulta: **02-10-2026**. Fuentes primarias de Microsoft Learn. Son referencias 
 
 [DAX query view](https://learn.microsoft.com/en-us/power-bi/transform-model/dax-query-view)
 
-- Permite ejecutar consultas contra el modelo y recibir consultas de los visuales desde Performance Analyzer.
+- Permite ejecutar consultas contra el modelo y contrastar resultados del modelo.
 - Una consulta de prueba puede definir medidas locales; ejecutar una consulta no equivale a incorporar automáticamente esas medidas al modelo.
 - La vista web requiere permisos de escritura y sus consultas se descartan al cerrar. Desktop guarda consultas con el modelo.
 - Límites de resultados documentados: 15 MB y un millón de valores por consulta; web añade un máximo de 99.999 filas. No utilizar esta vista como un mecanismo de exportación masiva.
@@ -53,16 +53,6 @@ Consulta: **02-10-2026**. Fuentes primarias de Microsoft Learn. Son referencias 
 - El estado activo y la dirección de una relación se comprueban en la vista Modelo o en Administrar relaciones. No se deducen del contrato escrito.
 - [Power Query Editor](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview) conecta y transforma; **Cerrar y aplicar** carga los resultados. [Combinar consultas](https://learn.microsoft.com/en-us/power-query/merge-queries-overview) une tablas dentro de una consulta, mientras las relaciones se configuran en el modelo.
 - Al cargar varias tablas, Power BI Desktop puede detectar relaciones. La detección puede faltar o elegir opciones distintas de las requeridas; se revisa después de cargar.
-
-## 4. Performance Analyzer: evidencia, no intuición
-
-[Use Performance Analyzer to examine report performance](https://learn.microsoft.com/en-us/power-bi/create-reports/performance-analyzer)
-
-- Mide duración por visual y separa consulta DAX, consulta directa, representación del visual y otras tareas.
-- Permite copiar consultas y exportar el registro a JSON. Desktop ofrece ejecutarlas en DAX Query View; en el servicio se puede copiar y abrir la vista por separado.
-- Las duraciones incluyen esperas por otras operaciones. «Other» no demuestra por sí solo que una fórmula DAX sea lenta.
-- Recomendación didáctica: comparar la misma interacción, visual, filtros y datos; repetir mediciones, distinguir carga inicial de ejecuciones posteriores y documentar las condiciones. Es un protocolo del curso, no un benchmark de Microsoft.
-- Optimizar un código sin medir el resultado no demuestra mejora. Comprobar primero equivalencia funcional.
 
 ## 5. Query folding y el límite de una demo con CSV
 
@@ -120,7 +110,7 @@ Consulta: **02-10-2026**. Fuentes primarias de Microsoft Learn. Son referencias 
 - Una expresión que funciona en la consulta inicial puede producir un valor incorrecto en otro contexto de filtro. El comprobador sintáctico no sustituye las pruebas de negocio.
 - En conexión en vivo, Copilot no ve expresiones de medidas ni objetos ocultos o privados del mismo modo que en un modelo local.
 - Descripciones claras y contexto del modelo mejoran la información disponible. Evitar asumir que la IA conoce reglas no documentadas.
-- Pedir consultas con casos esperados, filtros y subtotales. La evaluación debe cubrir totales, valores vacíos, división por cero y comparación temporal según las reglas del caso.
+- Pedir consultas con casos esperados, filtros y subtotales. La revisión didáctica agrupa totales, regiones, productos y comparación temporal; blancos y división por cero permanecen como protecciones internas, sin ejercicios artificiales.
 
 ## Uso en la formación
 
