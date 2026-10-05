@@ -19,3 +19,6 @@ Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.ht
 00–08 contrato y herramienta; 08–33 bloque M y validación; 33–45 modelo; 45–62 DAX; 62–72 matriz; 72–80 análisis; 80–105 documentación/control; 105–110 medición y cierre.
 
 Antes de DAX, pega `02_PreparacionNorteSur.m` en el **Editor avanzado** de Power Query, crea las salidas de `03_Salidas.md`, valida ControlCarga/Cuarentena/Calendario, pulsa **Cerrar y aplicar** y comprueba cuatro tablas y tres relaciones. Calendario DAX alternativo va en **Nueva tabla**; cada definición DAX se pega en **Nueva medida**. P10 hace que la IA genere una automatización Python nueva para el alumno; no se ejecuta ni adapta la referencia del instructor. Python contrasta archivos y referencias, pero no ejecuta M, DAX ni relaciones. El alumno debe comparar la evidencia con Power BI Desktop.
+
+
+Cada laboratorio termina con una sola comprobación útil del resultado. Reutiliza modelo y resultados confirmados. Las protecciones DAX y controles técnicos permanecen internos: no se exigen filtros artificiales, pruebas de BLANK() ni capturas rutinarias. P04 agrupa ventas, coste, margen y margen %; P05 agrupa YTD, año anterior y variaciones.

@@ -32,3 +32,10 @@ Referencias independientes: entrada 28, aceptadas 24, rechazadas 3, duplicado ex
 ## Entregables
 
 Presentación editable de 26 diapositivas con notas del instructor, guion, recorrido 01–08, cuaderno de seis ejercicios, prompts reutilizables, código M/DAX, datos y esperados, registro/comparativa de tiempos, ejercicio Python generado por IA y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.
+
+
+## 2026-10-05 · Simplificación didáctica autorizada
+
+Una sola comprobación final por laboratorio, agrupada por bloque funcional. Reutiliza resultados y modelo ya confirmados: no vuelvas a pedirlos si no cambiaron. Acepta valores con filtros o una lista concreta; solicita captura solo cuando sea imprescindible para aclarar el modelo real o diagnosticar una discrepancia. Mantén duplicados, claves desconocidas, fechas inválidas, nulos relevantes, Cuarentena y ControlCarga. Mantén las protecciones DAX y explica brevemente DIVIDE, IF e ISBLANK; son controles técnicos internos, no ejercicios adicionales. No pidas contextos vacíos, filtros artificiales ni pruebas obligatorias de BLANK(). Solo una discrepancia observada abre diagnóstico adicional.
+
+Secuencia intacta: P01 contrato, P02 preparación, P03 modelo, P04 medidas base, P05 inteligencia temporal y P06–P12 posteriores. P04 entrega las cuatro bases juntas; P05 las cuatro temporales juntas. Validaciones visibles: totales, regiones, productos, periodos, YTD y variaciones. Arquitectura, lógica de negocio y código M/DAX se conservan. Después de cada cambio, regenerar materiales/web/ZIP, verificar y actualizar GitHub Pages; no dar por publicada una versión sin comprobar despliegue.
