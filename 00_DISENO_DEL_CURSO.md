@@ -13,7 +13,7 @@ En cada tarea se elige la opción más simple, rápida, reproducible y verificab
 | 33–45 | 03 · Modelo | Cuatro tablas y tres relaciones verificadas |
 | 45–62 | 04 · DAX | P04: cuatro medidas base; P05: cuatro medidas YTD después de validar P04 |
 | 62–72 | 05 · Hallazgos con IA | P06: cinco hallazgos y conclusión |
-| 72–90 | 06 · Informe visual e hipótesis | P07: diseño ejecutivo; P08: evidencia adicional |
+| 72–90 | 06 · Informe visual e hipótesis | P07: construcción guiada; P08: evidencia adicional |
 | 90–115 | 07 · Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
 | 115–120 | 08 · Transferencia | Aceptación final y próxima tarea |
 
