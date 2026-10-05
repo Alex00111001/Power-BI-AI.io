@@ -1,4 +1,4 @@
-Paquete del curso Power BI de 0 a la automatización con ChatGPT, 110 minutos orientativos
+Paquete del curso Power BI de 0 a la automatización con ChatGPT, 120 minutos orientativos
 
 00_DISENO_DEL_CURSO.md
 CONTENIDO.txt
@@ -36,5 +36,7 @@ materiales/06_Conclusion_verificable.html
 materiales/06_Conclusion_verificable.md
 materiales/07_Recorrido_guiado.html
 materiales/07_Recorrido_guiado.md
+materiales/08_Informe_visual_de_hallazgos.html
+materiales/08_Informe_visual_de_hallazgos.md
 presentacion/notas_presentacion.txt
 presentacion/Power_BI_de_0_a_la_automatizacion_con_ChatGPT.pptx

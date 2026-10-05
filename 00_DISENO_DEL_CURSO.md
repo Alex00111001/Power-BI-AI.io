@@ -1,10 +1,10 @@
-# Power BI de 0 a la automatización con ChatGPT · solución profesional en 110 minutos orientativos
+# Power BI de 0 a la automatización con ChatGPT · solución profesional en 120 minutos orientativos
 
-Curso en español para profesionales que ya usan Power BI. Un caso sintético, NorteSur, muestra cómo reducir trabajo repetitivo con IA sin perder calidad de datos, trazabilidad ni validación. El resultado final se diseña primero: fuentes → una preparación M con salidas de auditoría → modelo estrella → medidas DAX → resultados → cinco hallazgos con IA → conclusión → documentación y automatización. Los 110 minutos son una orientación para una práctica completa; cada bloque avanza al comprobar su resultado, no al llegar a una hora fija.
+Curso en español para profesionales que ya usan Power BI. Un caso sintético, NorteSur, muestra cómo reducir trabajo repetitivo con IA sin perder calidad de datos, trazabilidad ni validación. El resultado final se diseña primero: fuentes → una preparación M con salidas de auditoría → modelo estrella → medidas DAX → resultados → cinco hallazgos con IA → informe visual → conclusión → documentación y automatización. Los 120 minutos son una orientación para una práctica completa; cada bloque avanza al comprobar su resultado, no al llegar a una hora fija.
 
 ## Decisión metodológica
 
-En cada tarea se elige la opción más simple, rápida, reproducible y verificable. Interfaz para acciones únicas y visuales; M para importación y transformaciones repetitivas; DAX para medidas y contexto de filtro; IA para redactar, explicar, revisar y corregir código. **P01–P11 se envían de uno en uno**. Dentro de PXX se pueden agrupar operaciones relacionadas, pero el asistente valida su resultado, declara «PXX completado y validado», se detiene y pide el siguiente prompt. Nunca inicia PXX+1 por iniciativa propia. Una acción sencilla puede validarse con «listo»; una cifra, relación o conclusión necesita evidencia concreta.
+En cada tarea se elige la opción más simple, rápida, reproducible y verificable. Interfaz para acciones únicas y visuales; M para importación y transformaciones repetitivas; DAX para medidas y contexto de filtro; IA para redactar, explicar, revisar y corregir código. **P01–P12 se envían de uno en uno**. Dentro de PXX se pueden agrupar operaciones relacionadas, pero el asistente valida su resultado, declara «PXX completado y validado», se detiene y pide el siguiente prompt. Nunca inicia PXX+1 por iniciativa propia. Una acción sencilla puede validarse con «listo»; una cifra, relación o conclusión necesita evidencia concreta.
 
 | Minutos | Bloque | Entrega |
 |---:|---|---|
@@ -13,9 +13,9 @@ En cada tarea se elige la opción más simple, rápida, reproducible y verificab
 | 33–45 | 03 · Modelo | Cuatro tablas y tres relaciones verificadas |
 | 45–62 | 04 · DAX | P04: cuatro medidas base; P05: cuatro medidas YTD después de validar P04 |
 | 62–72 | 05 · Hallazgos con IA | P06: cinco hallazgos y conclusión |
-| 72–80 | 06 · Hipótesis | P07: evidencia adicional y siguiente acción |
-| 80–105 | 07 · Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
-| 105–110 | 08 · Transferencia | Aceptación final y próxima tarea |
+| 72–90 | 06 · Informe visual e hipótesis | P07: diseño ejecutivo; P08: evidencia adicional |
+| 90–115 | 07 · Documentación y automatización | Ficha y nuevo control Python generado desde prompt |
+| 115–120 | 08 · Transferencia | Aceptación final y próxima tarea |
 
 El flujo didáctico de cada prompt es **problema → PXX → solución dentro de PXX → ejecución → evidencia → validación → cierre → espera del siguiente prompt**. Los ocho bloques organizan temas y tiempo, pero no autorizan fusionar prompts. El guion y cuaderno desarrollan el recorrido sin clases de Power BI básico ni errores inducidos.
 
@@ -31,11 +31,11 @@ Referencias independientes: entrada 28, aceptadas 24, rechazadas 3, duplicado ex
 
 ## Entregables
 
-Presentación editable de 26 diapositivas con notas del instructor, guion, recorrido 01–08, cuaderno de seis ejercicios, prompts reutilizables, código M/DAX, datos y esperados, tabla de hallazgos y conclusión verificable, ejercicio Python generado por IA y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.
+Presentación editable de 28 diapositivas con notas del instructor, guion, recorrido 01–08, cuaderno de seis ejercicios, prompts reutilizables, código M/DAX, datos y esperados, tabla de hallazgos y conclusión verificable, ejercicio Python generado por IA y web autónoma. El paquete contiene los CSV con nombres que coinciden con las consultas. No incluye PBIX montado ni un benchmark de ahorro laboral.
 
 
 ## 2026-10-05 · Simplificación didáctica autorizada
 
 Una sola comprobación final por laboratorio, agrupada por bloque funcional. Reutiliza resultados y modelo ya confirmados: no vuelvas a pedirlos si no cambiaron. Acepta valores con filtros o una lista concreta; solicita captura solo cuando sea imprescindible para aclarar el modelo real o diagnosticar una discrepancia. Mantén duplicados, claves desconocidas, fechas inválidas, nulos relevantes, Cuarentena y ControlCarga. Mantén las protecciones DAX y explica brevemente DIVIDE, IF e ISBLANK; son controles técnicos internos, no ejercicios adicionales. No pidas contextos vacíos, filtros artificiales ni pruebas obligatorias de BLANK(). Solo una discrepancia observada abre diagnóstico adicional.
 
-Secuencia intacta: P01 contrato, P02 preparación, P03 modelo, P04 medidas base, P05 inteligencia temporal y P06–P11 posteriores. P04 entrega las cuatro bases juntas; P05 las cuatro temporales juntas. Validaciones visibles: totales, regiones, productos, periodos, YTD y variaciones. Arquitectura, lógica de negocio y código M/DAX se conservan. Después de cada cambio, regenerar materiales/web/ZIP, verificar y actualizar GitHub Pages; no dar por publicada una versión sin comprobar despliegue.
+Secuencia intacta: P01 contrato, P02 preparación, P03 modelo, P04 medidas base, P05 inteligencia temporal y P06–P12 posteriores. P04 entrega las cuatro bases juntas; P05 las cuatro temporales juntas. Validaciones visibles: totales, regiones, productos, periodos, YTD y variaciones. Arquitectura, lógica de negocio y código M/DAX se conservan. Después de cada cambio, regenerar materiales/web/ZIP, verificar y actualizar GitHub Pages; no dar por publicada una versión sin comprobar despliegue.
