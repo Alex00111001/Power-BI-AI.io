@@ -7,3 +7,6 @@ El laboratorio entrega `Productos.csv`, `Regiones.csv` y `VentasOrigen.csv`, con
 Ver el curso publicado: <https://alex00111001.github.io/Power-BI-AI.io/>.
 
 La página se genera desde `indice.html` y se publica como `index.html` en GitHub Pages.
+
+
+P09 (ficha de medida) es opcional: se puede pasar de P08 a P10 sin bloquear la revisión final. P08 plantea hipótesis sin exigir verificarlas ni contactar a negocio.

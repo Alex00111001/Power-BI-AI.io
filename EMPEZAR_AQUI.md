@@ -4,7 +4,7 @@ Curso práctico para profesionales que ya trabajan con Power BI. Abre `indice.ht
 
 | Material | Uso |
 |---|---|
-| `presentacion/Power_BI_de_0_a_la_automatizacion_con_ChatGPT.pptx` | Presentación editable de 28 diapositivas con notas del instructor |
+| `presentacion/Power_BI_de_0_a_la_automatizacion_con_ChatGPT_actualizado.pptx` | Presentación editable de 28 diapositivas con notas del instructor |
 | `materiales/01_Guion_del_instructor.md` | Secuencia, tiempos orientativos y mapa de las diapositivas |
 | `materiales/02_Cuaderno_del_participante.md` | Prácticas y resultados esperados |
 | `materiales/07_Recorrido_guiado.md` | Ocho bloques desde contrato hasta solución |
@@ -23,3 +23,6 @@ Antes de DAX, pega `02_PreparacionNorteSur.m` en el **Editor avanzado** de Power
 
 
 Cada laboratorio termina con una sola comprobación útil del resultado. Reutiliza modelo y resultados confirmados. Las protecciones DAX y controles técnicos permanecen internos: no se exigen filtros artificiales, pruebas de BLANK() ni capturas rutinarias. P04 agrupa ventas, coste, margen y margen %; P05 agrupa YTD, año anterior y variaciones.
+
+
+**P09 opcional.** La ficha de medida no es requisito para avanzar ni cerrar el curso. Tras P08 se puede elegir P09 o enviar P10 directamente. En P12, omitir P09 no constituye un pendiente. El tiempo de esa actividad se puede omitir.

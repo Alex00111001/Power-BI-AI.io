@@ -39,4 +39,4 @@ materiales/07_Recorrido_guiado.md
 materiales/08_Informe_visual_de_hallazgos.html
 materiales/08_Informe_visual_de_hallazgos.md
 presentacion/notas_presentacion.txt
-presentacion/Power_BI_de_0_a_la_automatizacion_con_ChatGPT.pptx
+presentacion/Power_BI_de_0_a_la_automatizacion_con_ChatGPT_actualizado.pptx

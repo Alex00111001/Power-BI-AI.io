@@ -43,4 +43,7 @@ Secuencia intacta: P01 contrato, P02 preparación, P03 modelo, P04 medidas base,
 
 ## 2026-10-05 · P08 sin verificación de hipótesis
 
-Por petición del usuario, P08 solo plantea dos hipótesis alternativas, evidencia externa sugerida y una pregunta para negocio. No exige verificarlas, conseguir registros, contactar a un responsable ni solicitar confirmación adicional. Completa en una respuesta y pide P09. Cierre: «P08 completado: hipótesis planteadas, no verificadas. Envíame P09 para continuar». Esto es una excepción a las pausas generales de validación; no se presentan hipótesis como causas demostradas. Publicar cada cambio en GitHub sigue siendo obligatorio.
+Por petición del usuario, P08 solo plantea dos hipótesis alternativas, evidencia externa sugerida y una pregunta para negocio. No exige verificarlas, conseguir registros, contactar a un responsable ni solicitar confirmación adicional. Completa en una respuesta y pide P09. Cierre: «P08 completado: hipótesis planteadas, no verificadas. Puedes enviar P09 (opcional) o pasar directamente a P10». Esto es una excepción a las pausas generales de validación; no se presentan hipótesis como causas demostradas. Publicar cada cambio en GitHub sigue siendo obligatorio.
+
+
+**P09 opcional.** La ficha de medida no es requisito para avanzar ni cerrar el curso. Tras P08 se puede elegir P09 o enviar P10 directamente. En P12, omitir P09 no constituye un pendiente. El tiempo de esa actividad se puede omitir.
